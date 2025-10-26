@@ -1,17 +1,54 @@
 body {
 	font-family:"Janson-Roman", serif;
-    background-color: cornsilk;
-    color: black;
+    background-color: FloralWhite;
     padding: 15px;
     color: black;
-    text-align: center;
 }
+a {
+	text-decoration:none;
+}
+
+a:visited {
+	color:black;
+}
+a:hover {
+	color:indigo;
+}
+a:active {
+	color:mediumpurple;
+}
+
 h1 {
-	font-family:"Janson-Roman"
+	font-family:"Janson-Roman";
+	font-size:48px;
+	color:black;
+	padding:20px;
+	text-align:center;
+
 }
-h3, i {
+h3 {
 	font-family:"Janson-Italic", serif;
+	text-align:center;
+	font-size:24px;
 }
+#tabs {
+	font-size:24px;
+	width:100%;
+	height:20em;
+	padding-top,padding-bottom:1em;
+	list-style-type:none;
+}
+#tabs li {
+	list-style-type:none;
+	padding:20px;
+}
+ul li:before
+{
+	    content: '\2761';
+	    margin: 0 1em;    /* any design */
+	}
+
+	
 @font-face {
     font-family: "Janson-Roman";
 	src: url("Janson-Roman.ttf");
@@ -20,3 +57,4 @@ h3, i {
     font-family: "Janson-Italic";
     src: url("https://db.onlinewebfonts.com/t/a616fbd33926ec77e7e36b9b48f84a4c.ttf")format("truetype");
 }
+
