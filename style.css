@@ -1,112 +1,23 @@
 body {
-    font-family: OpenSans, sans-serif;
-    background-color: whitesmoke;
+	font-family:"Janson-Roman", serif;
+    background-color: cornsilk;
     color: black;
     padding: 15px;
-}
-img {
-    display: block;
-    margin: 0 auto;
-}
-figcaption {
-    text-align: center;
-    padding-bottom: 20px;
-}
-a {
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
-}
-a:hover {
-    color: orangered;
-}
-.header {
-    overflow: hidden;
-    background-color: #FFCE2E;
-    padding: 20px 10px;
-}
-.header a {
-    float: left;
     color: black;
     text-align: center;
-    padding: 12px;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
 }
-.header a:hover {
-    color: orangered;
+h1 {
+	font-family:"Janson-Roman"
 }
-.header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-}
-.header-right {
-    float: right;
-}
-@media screen and (max-width: 500px) {
-    .header a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    .header-right {
-        float: none;
-    }
-}
-.button {
-    color: black;
-    font-size: 18px;
-    background-color: #FFCE2E;
-    display: inline-block;
-    width:-webkit-fill-available;
-    width:-moz-available;
-    width:fill-available;
-    border: 2px solid black;
-    text-align: center;
-    padding: 12px 20px;
-    cursor: pointer;
-    text-decoration: none;
-}
-.button:hover {
-    background-color: orangered;
-    color: white;
-}
-.container-buttons {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 30px;
-}
-.ltrain, .gtrain {
-    -webkit-text-stroke: 1px black;
-}
-.ltrain {
-    color: #A7A9AC;
-}
-.gtrain {
-    color: #6CBE45;
-}
-.image {
-    display: block;
-    margin: 0 auto;
-}
-#illus {
-    max-width: 300px;
-    height: auto;
-}
-#transitlogo {
-    display: inline;
-    height: 1em;
+h3, i {
+	font-family:"Janson-Italic", serif;
+	font-style: italic;
 }
 @font-face {
-    font-family: OpenSans;
-    src: url(OpenSans-VariableFont_wdth,wght.ttf);
+    font-family: "Janson-Roman";
+	src: url("Janson-Roman.ttf");
 }
-th {
-    font-size: 20px;
-}
-#mbikes, #bbikes {
-    font-weight: bold;
+@font-face {
+    font-family: "Janson-Italic";
+    src: url("https://db.onlinewebfonts.com/t/a616fbd33926ec77e7e36b9b48f84a4c.ttf")format("truetype");
 }
