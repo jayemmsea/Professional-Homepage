@@ -13,12 +13,44 @@
 	<br />
 
 	<ul id="tabs">
-		<li><a href="index.html">Biographical</a></li>
-		<li><a href="index.html">Foundations</a></li>
-		<li><a href="index.html">User-Centered Services<a></li>
-		<li><a href="index.html">Technology</a></li>
-		<li><a href="index.html">Research</a></li>
-		<li><a href="index.html">Critical Practice</a></li>
+		<li><a id="bio">Biographical</a></li>
+		<li><a id="found">Foundations</a></li>
+		<li><a id="uss">User-Centered Services<a></li>
+		<li><a id="tech">Technology</a></li>
+		<li><a id="res">Research</a></li>
+		<li><a id="crit">Critical Practice</a></li>
 	</ul>
+
+	<div id="content">
+	</div>
+	
+
+
+	<div id="footer">
+		<i>A hand-coded website by Jack McKernan, 2025 — No Rights Reserved (CC0)</i>
+	</div>
+<script>
+	const bio = document.getElementById("bio");
+	bio.addEventListener("click", function() {
+		document.getElementById("content").innerHTML ="<h2>Jack McKernan</h2> is a professional archivist and historian working at the NYPL researching X, Y, and Z for the betterment of all. He lives in New York.";});
+	const found = document.getElementById("found");
+	found.addEventListener("click", function() {
+		document.getElementById("content").innerHTML ="<h2>Foundations of Library and Information Studies</h2>";});
+	const uss = document.getElementById("uss");
+	uss.addEventListener("click", function() {
+		document.getElementById("content").innerHTML ="<h2>User-Centered Services</h2>";});
+	const tech = document.getElementById("tech");
+	tech.addEventListener("click", function() {
+		document.getElementById("content").innerHTML ="<h2>Technology</h2>";});
+	const res = document.getElementById("res");
+	res.addEventListener("click", function() {
+		document.getElementById("content").innerHTML ="<h2>Research</h2>";});
+	const crit  = document.getElementById("crit");
+	crit.addEventListener("click", function() {
+		document.getElementById("content").innerHTML ="<h2>Ethical, Creative, &amp; Critical Practice</h2>";});
+
+
+
+</script>
 </body>
 </html> 
